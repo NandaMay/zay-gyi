@@ -1,0 +1,6 @@
+{
+  "name": "Mobile Service & Second-Hand",
+  "description": "ဖုန်းအရောင်းအဝယ်၊ အလဲအထပ်၊ Service နှင့် ဖုန်းဘုတ်ပြား အရောင်းအဝယ်အတွက် Premium Glass Neon Digital Business Profile",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
