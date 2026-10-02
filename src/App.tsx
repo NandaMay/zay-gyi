@@ -121,7 +121,7 @@ export default function App() {
                   decoding="async"
                   referrerPolicy="no-referrer"
                   onError={(e) => {
-                    e.currentTarget.src = "/src/assets/images/zay_gyi_real_photo.jpg";
+                    e.currentTarget.src = "/zay_gyi_real_photo.jpg";
                   }}
                 />
               </div>
@@ -193,7 +193,7 @@ export default function App() {
                     decoding="async"
                     referrerPolicy="no-referrer"
                     onError={(e) => {
-                      e.currentTarget.src = "/src/assets/images/zay_gyi_real_photo.jpg";
+                      e.currentTarget.src = "/zay_gyi_real_photo.jpg";
                     }}
                   />
                 </div>

@@ -7,6 +7,8 @@
  * You can edit all business info, phone numbers, Facebook link and services here.
  */
 
+import zayGyiRealPhoto from '../assets/images/zay_gyi_real_photo.jpg';
+
 export interface BusinessService {
   id: string;
   icon: string;
@@ -56,7 +58,7 @@ export interface BusinessConfig {
 
 export const businessConfig: BusinessConfig = {
   // Profile ဓာတ်ပုံ (Web URL တိုင်းတွင် မည်သူမဆို တိုက်ရိုက်မြင်တွေ့ရမည့် ပုံ)
-  profileImage: "/zay_gyi_profile.jpg",
+  profileImage: zayGyiRealPhoto,
 
   // အဓိက Brand Title
   brandTitle: "Mobile Service & Second-Hand",
@@ -68,7 +70,7 @@ export const businessConfig: BusinessConfig = {
   facebook: {
     buttonLabel: "Facebook Profile",
     url: "https://www.facebook.com/share/19UcZtH2YD/",
-    profileImage: "/zay_gyi_profile.jpg",
+    profileImage: zayGyiRealPhoto,
   },
 
   // ဖုန်းဆက်သွယ်ရန် ခလုတ်နှင့် ဖုန်းနံပါတ် (CHANGE PHONE NUMBER HERE)
