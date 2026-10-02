@@ -1,9 +1,6 @@
 /**
  * Mobile Service & Second-Hand
  * Zay Gyi • Ultra-Smooth Neon Galaxy Digital Business Profile
- * Stationary Layout (အောက်ကနေအပေါ်မတက်ဘဲ သဘာဝအတိုင်း တည်ငြိမ်စွာ တည်ရှိသည်)
- * Touch/Hover 10px Elevation with Sleek Light Accent Bar (အရမ်းဖြူဖွေးမနေဘဲ သေသပ်သော Light Accent Bar သာ လင်းလက်သည်)
- * Direct "ခေါ်ဆိုမည်" Phone Calling
  */
 
 import React, { useState } from 'react';
