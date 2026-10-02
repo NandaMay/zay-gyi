@@ -232,7 +232,7 @@ export default function App() {
               <span>အဓိက ဝန်ဆောင်မှုများ</span>
             </h2>
             <span className="text-[11px] text-cyan-300/90 myanmar-text">
-              ကဒ်ကိုထိပါက ၁၂px ကြွတက်ပါမည်
+        
             </span>
           </div>
 
