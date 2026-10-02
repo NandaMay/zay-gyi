@@ -35,8 +35,8 @@ export interface BusinessConfig {
   // Phone Contact (ဖုန်းနံပါတ် ဤနေရာတွင် အလွယ်တကူ ပြောင်းလဲနိုင်သည်)
   phone: {
     buttonLabel: string;
-    displayNumber: string; // ဖန်သားပြင်ပေါ်တွင် ပြသမည့်ပုံစံ ဥပမာ: "09 798 123 456"
-    rawNumber: string;     // ဖုန်းခေါ်ဆိုရန် tel: format ဥပမာ: "+959798123456" သို့မဟုတ် "09798123456"
+    displayNumber: string; // ဖန်သားပြင်ပေါ်တွင် ပြသမည့်ပုံစံ ဥပမာ: "09984270185"
+    rawNumber: string;     // ဖုန်းခေါ်ဆိုရန် tel: format ဥပမာ: "+959984270185" သို့မဟုတ် "09984270185"
     alternateNumber?: string;
   };
 
@@ -76,14 +76,14 @@ export const businessConfig: BusinessConfig = {
   // ဖုန်းဆက်သွယ်ရန် ခလုတ်နှင့် ဖုန်းနံပါတ် (CHANGE PHONE NUMBER HERE)
   phone: {
     buttonLabel: "ခေါ်ဆိုမည်",
-    displayNumber: "09 958 865 807", // မိမိဖုန်းနံပါတ်
-    rawNumber: "09958865807",        // tel: link အတွက်
+    displayNumber: "09984270185", // မိမိဖုန်းနံပါတ်
+    rawNumber: "09984270185",        // tel: link အတွက်
   },
 
   // ဆက်သွယ်ရန် ထပ်ဆောင်းအချက်အလက် (Optional)
-  viberNumber: "09958865807",
-  location: "ရန်ကုန်မြို့ / မန္တလေးမြို့ (သို့မဟုတ် ဆိုင်လိပ်စာ)",
-  workingHours: "နေ့စဉ် မနက် ၉:၀၀ မှ ည ၈:၀၀ အထိ",
+  viberNumber: "09984270185",
+  location: "ရန်ကုန်တိုင်းဒေသကြီး လှိုင်သာယာမြို့နယ်",
+  workingHours: "နေ့စဉ် မနက် ၉:၀၀ မှ ည ၆:၀၀ အထိ",
 
   // အဓိကလုပ်ငန်း ၃ မျိုး (3 Main Services)
   services: [
@@ -91,7 +91,7 @@ export const businessConfig: BusinessConfig = {
       id: "buy-sell-exchange",
       icon: "📱",
       title: "ဖုန်း အရောင်း / အဝယ် / အလဲအထပ်",
-      shortDesc: "Second-Hand ဖုန်းကောင်း ဖုန်းသန့်များ စိတ်ချရသော အာမခံဖြင့် ဝယ်ယူ၊ ရောင်းချ၊ လဲလှယ်နိုင်ပါသည်။",
+      shortDesc: "Second-Hand ဖုန်းကောင်း ဖုန်းသန့်များ စိတ်ချရသော အာမခံမှုဖြင့် ဝယ်ယူ၊ ရောင်းချ၊ လဲလှယ်နိုင်ပါသည်။",
       highlights: ["Second-Hand စစ်ဆေးပြီးသား", "ဈေးနှုန်းမှန်ကန်မှု", "အလဲအထပ် အဆင်ပြေစေမှု"],
     },
     {
